@@ -23,6 +23,6 @@ public class BasicAssign3 {
         else{
             System.out.println("not on line"); 
         }
-    
+        scanner.close();
     }
 }
