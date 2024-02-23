@@ -5,8 +5,7 @@ public class PracticeTestA{
         Scanner scanner = new Scanner(System.in);
         //triangles(scanner);
         //yodaRAHHH(scanner);
-        String word = "hjeje";
-        System.out.println(word.charAt(0));
+
     }
 
     public static void yodaRAHHH(Scanner scanner){
@@ -25,7 +24,8 @@ public class PracticeTestA{
                 System.out.print(punctuation);
             }
             else{
-            System.out.print(words[i]+punctuation);}
+            System.out.print(words[i]+punctuation);
+           }
         }
         for (int i = 0; i < words.length/2+offset; i++){
             System.out.print(words[i]+" ");
