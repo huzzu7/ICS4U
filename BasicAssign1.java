@@ -4,7 +4,7 @@ public class BasicAssign1 {
     public static void main (String []args){
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
-        string += string.charAt(0);
+        string += string.charAt(0); 
 
         System.out.println(string);
         for (int i = 1; i < string.length()-1; i++) {
