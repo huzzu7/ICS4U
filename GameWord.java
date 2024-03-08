@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class GameWord {
 
     private static String content;
@@ -12,5 +14,14 @@ public class GameWord {
         for (int i = content.length()-1; i >= 0; i--)
             reversed+=content.charAt(i);
         return reversed;   
+    }
+
+    public boolean anagram(String word){
+        char []contentArray = content.toCharArray();
+        char []wordArray = word.toCharArray();
+
+        Arrays.sort(contentArray);
+        Arrays.sort(wordArray);
+        return false;
     }
 }
